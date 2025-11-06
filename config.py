@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID", 22091901 ))
+API_HASH = getenv("API_HASH", "54b0cd5fb47a40265b197f1a110b20b8")
+BOT_TOKEN = getenv("8555860155:AAF4BaQ2IqOBSAoCWHiFrNZlKoAHFZeOUZo")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+OWNER_ID = int(getenv("OWNER_ID",  5811783004))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "shadowmonarchjii")
+BOT_USERNAME = getenv("BOT_USERNAME", "IamMelodyX_Bot")
+BOT_NAME = getenv("BOT_NAME", "✨𝓜𝓮𝓵𝓸𝓭𝔂𝓧✨")
+ASSUSERNAME = getenv("ASSUSERNAME", "melodyXassiantant")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+MONGO_DB_URI = getenv("mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
+LOGGER_ID = int(getenv("LOGGER_ID", -1003189576237))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -45,8 +45,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedCoders")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shadowmonarchjii")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+md2s35B2X1wxN2M9")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
@@ -60,7 +60,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ── Session strings (optional) ─────────────────────────────────────────────────
-STRING1 = getenv("STRING_SESSION")
+STRING1 = getenv("BQHtwy4AGGA4MHPmIjqksdceV3VZ9geDXnFRldvgPR1rbzrtiO2vuI7BYPV4GFSpIzeXmP86w9UVvJUQ7PtbSZofHnFzh_Jnc9YQtr7IDqkjNEXTSN6XkVn7aUAjpdFbIlZrHXwoVrVevopapdle_e134Ug-AhtzfwvmKkFb6cZ9tGuudsmLf2c6uBG-e1PkGKebj7biojgj5JTZ2bSGbKw9R1Td0lTFXGbJqomsmAtCKS_-iM900Q6r1RaNyY8IKv_lr8I7KUSSlmK-sLqXZHyGbyja6ezSUxGvLPzAdp6zg17Lsyft4a4R2f1FycaxjNUt5-_db8g5qcN3HXXpTm6efusOtwAAAAHwB2FsAA")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
