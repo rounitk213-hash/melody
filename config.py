@@ -12,10 +12,10 @@ API_HASH = getenv("API_HASH", "54b0cd5fb47a40265b197f1a110b20b8")
 BOT_TOKEN = getenv("8032338023:AAHvF1meONrnbAgMkkMTXQuxqVCu7PomcVU")
 
 OWNER_ID = int(getenv("OWNER_ID",  5811783004))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "shadowmonarchjii")
-BOT_USERNAME = getenv("BOT_USERNAME", "IamMelodyX_Bot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@shadowmonarchjii")
+BOT_USERNAME = getenv("BOT_USERNAME", "@IamMelodyX_Bot")
 BOT_NAME = getenv("BOT_NAME", "✨𝓜𝓮𝓵𝓸𝓭𝔂𝓧✨")
-ASSUSERNAME = getenv("ASSUSERNAME", "melodyXassiantant")
+ASSUSERNAME = getenv("ASSUSERNAME", "@melodyXassiantant")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
