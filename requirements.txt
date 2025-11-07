@@ -20,7 +20,7 @@ motor
 nekosbest
 numpy
 opencv-python
-pillow==12.0.0
+pillow==10.4.0
 psutil
 ntgcalls==2.0.6
 py-tgcalls==2.2.8
@@ -30,7 +30,7 @@ pyfiglet
 pyshorteners
 python-dotenv
 python-whois
-git+https://github.com/CertifiedDevloper/youtube-search-python@v1.6.6.post2
+youtube-search-python==1.6.6
 pyyaml
 qrcode
 requests
@@ -41,4 +41,4 @@ telegraph
 tgcrypto
 unidecode
 wget
-yt-dlp==2025.10.22
+yt-dlp
